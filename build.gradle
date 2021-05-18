@@ -19,7 +19,8 @@ subprojects {
     repositories {
         google()
         mavenCentral()
-        jcenter()
+        maven { url "https://jitpack.io" }
+        //jcenter()
     }
 
     group = "com.sch.neon"
@@ -37,7 +38,7 @@ ext.versions = [
     kotlin           : "1.3.41",
     rxjava           : "2.2.10",
     rxkotlin         : "2.3.0",
-    rxjava2extensions: "0.2.1",
+    rxjava2extensions: "-SNAPSHOT",
     timber           : "4.7.1",
 
     junit            : [

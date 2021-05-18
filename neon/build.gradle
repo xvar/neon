@@ -7,7 +7,7 @@ plugins {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     api "io.reactivex.rxjava2:rxjava:$versions.rxjava"
-    api "com.github.technoir42:rxjava2-extensions:$versions.rxjava2extensions"
+    api "com.github.xvar:rxjava2-extensions:$versions.rxjava2extensions"
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:$versions.junit.jupiter"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$versions.junit.jupiter"
